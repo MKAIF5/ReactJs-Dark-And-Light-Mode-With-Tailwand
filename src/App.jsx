@@ -12,10 +12,14 @@ function App() {
         <br /><br /><br />
         <div>
           <input className='
-          bg-gray-200' type="text" name="" id="" />
-          <br />
+          bg-gray-100 w-64 mx-11 outline-none p-1
+          rounded-xl text-center font-semibold placeholder-purple-600'
+          placeholder='Username' type="text" name="" id="" />
+          <br /><br />
           <input className='
-          ' type="text" name="" id="" />
+          bg-gray-100 w-64 mx-11 outline-none p-1
+          rounded-xl placeholder-purple-600 text-center font-semibold'
+          placeholder='Password' type="text" name="" id="" />
         </div>
 
 
