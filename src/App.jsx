@@ -3,7 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <div className='p-4 bg-white w-96 mx-auto my-40 rounded-xl'>
+      <div className='p-4 bg-white w-96 mx-auto my-28 rounded-xl'>
         <br />
         <div>
           <h1 className='text-center text-purple-900 text-2xl
@@ -21,11 +21,17 @@ function App() {
           rounded-xl placeholder-purple-600 text-center font-semibold'
             placeholder='Password' type="text" name="" id="" />
         </div>
-        <br />
+        <br /><br />
         <div className='flex justify-center'>
-          <button className='p-2 w-28 rounded-2xl bg-purple-600 text-white'>Sign In</button>
+          <button className='p-2 w-28 rounded-2xl bg-purple-600
+           text-white'>Sign In</button>
         </div>
-
+        <br />
+        <div>
+          <p className='text-center text-purple-500
+          '>Forgot Password?</p>
+        </div>
+        <br />
       </div>
 
     </>
