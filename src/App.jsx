@@ -12,16 +12,19 @@ function App() {
         <br /><br /><br />
         <div>
           <input className='
-          bg-gray-100 w-64 mx-11 outline-none p-1
+          bg-gray-100 w-64 mx-12 outline-none p-1
           rounded-xl text-center font-semibold placeholder-purple-600'
-          placeholder='Username' type="text" name="" id="" />
+            placeholder='Username' type="text" name="" id="" />
           <br /><br />
           <input className='
-          bg-gray-100 w-64 mx-11 outline-none p-1
+          bg-gray-100 w-64 mx-12 outline-none p-1
           rounded-xl placeholder-purple-600 text-center font-semibold'
-          placeholder='Password' type="text" name="" id="" />
+            placeholder='Password' type="text" name="" id="" />
         </div>
-
+        <br />
+        <div className='flex justify-center'>
+          <button className='p-2 w-28 rounded-2xl bg-purple-600 text-white'>Sign In</button>
+        </div>
 
       </div>
 
