@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { createContext } from 'react'
+import ReactSwitch from 'react-switch';
 import Form from './components/Form';
 import './App.css'
 
@@ -21,6 +22,7 @@ function App() {
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div className='app' id={theme}>
           <Form />
+          <ReactSwitch className='relative bottom-20' />
         </div>
       </ThemeContext.Provider >
     </>
