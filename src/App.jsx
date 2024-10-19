@@ -15,11 +15,11 @@ function App() {
       curr === "light" ? "dark" : "light"
     });
   };
-  
+
 
 return (
   <>
-    <ThemeContext.Provider value={{ theme, setTheme }}>
+    <ThemeContext.Provider value={{ theme, toggleTheme }}>
 
       <div id='light'>
         <div className='p-4 bg-white w-96 mx-auto my-28 rounded-xl'>
