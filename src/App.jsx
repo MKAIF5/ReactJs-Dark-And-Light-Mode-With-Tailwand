@@ -9,12 +9,10 @@ export const ThemeContext = createContext(null);
 
 function App() {
 
-  const [theme, setTheme] = useState("dark")
+  const [theme, setTheme] = useState("light")
 
   const toggleTheme = () => {
-    setTheme((curr) => {
-      curr === "light" ? "dark" : "light"
-    });
+    setTheme((curr) => (curr === "light" ? "dark" : "light"))
   };
 
   return (
@@ -22,7 +20,8 @@ function App() {
       <ThemeContext.Provider value={{ theme, toggleTheme }}>
         <div className='app' id={theme}>
           <Form />
-          <ReactSwitch className='relative bottom-20' />
+          <ReactSwitch className='relative bottom-20'
+            onChange={toggleTheme} checked={theme === "dark"} />
         </div>
       </ThemeContext.Provider >
     </>
