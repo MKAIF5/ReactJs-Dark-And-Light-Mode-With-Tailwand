@@ -2,19 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-.app{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.app {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-#dark{
-    background-color: #46054e;
+#dark {
+  background-color: #46054e;
 }
 
-#light{
-    background-color: rgb(168, 162, 162);
+#light {
+  background-color: rgb(168, 162, 162);
+}
+
+#light #main {
+  background-color: rgb(118, 32, 118);
+}
+
+#light #h1{
+    color: white;
+}
+
+#light #forgot{
+    color: white;
 }

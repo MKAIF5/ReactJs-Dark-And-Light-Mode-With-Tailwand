@@ -3,10 +3,10 @@ import React from 'react'
 function Form() {
     return (
         <>
-            <div className='p-4 bg-white w-96 mx-auto my-28 rounded-xl'>
+            <div id='main' className='p-4 bg-white w-96 mx-auto my-28 rounded-xl'>
                 <br />
                 <div>
-                    <h1 className='text-center text-purple-900 text-2xl
+                    <h1 id='h1' className='text-center text-purple-900 text-2xl
           font-semibold'>Sign In</h1>
                 </div>
                 <br /><br /><br />
@@ -28,7 +28,7 @@ function Form() {
                 </div>
                 <br />
                 <div>
-                    <p className='text-center text-purple-500
+                    <p id='forgot' className='text-center text-purple-500
           '>Forgot Password?</p>
                 </div>
                 <br />
